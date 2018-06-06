@@ -14,6 +14,7 @@ Create or add reminders to a list in the iOS Reminders app, using each line of t
 
 - **List Template**: Name of the Reminders list to use. If not found, it will be created.
 - **Note Delimiter**: Separator to distinguish beginning of notes on the line. Any text after this character on each line will be treated as a note, and text before will be used as the title of the task.
+- **Template**: Template for the lines to use to create reminder tasks. Default value `[[draft]]` uses the full content of the current draft.
 
 #### Dynamic List Specifiers
 

@@ -108,6 +108,24 @@ Open drafts directly the draft list with a named workspace selected.
 - **Examples**
   - `drafts5://x-callback-url/workspace?name=WORKSPACE-NAME`
 
+### /loadActionGroup
+
+Load an action group in the action list side panel.
+
+- **Arguments**
+  - **name** *[string, required]* : Name of a valid action group to load.
+- **Examples**
+  - `drafts5://x-callback-url/loadActionGroup?name=WORKSPACE-NAME`
+
+### /loadKeyboardActionGroup
+
+Load an action group in the extended keyboard row.
+
+- **Arguments**
+  - **name** *[string, required]* : Name of a valid action group to load.
+- **Examples**
+  - `drafts5://x-callback-url/loadKeyboardActionGroup?name=WORKSPACE-NAME`
+
 ### /runAction
 
 Run a drafts action on the passed text without saving that text to a draft.

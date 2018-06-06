@@ -7,8 +7,8 @@
     <meta name="apple-itunes-app" content="app-id=1236254471, affiliate-data=at=11l4Cf&amp;ct=web_banner">
     <link rel="icon" href="/images/favicon.png">
 <!-- Begin Jekyll SEO tag v2.3.0 -->
-<title>Apple Watch | Drafts</title>
-<meta property="og:title" content="Apple Watch" />
+<title>Navigating Longer Drafts | Drafts</title>
+<meta property="og:title" content="Navigating Longer Drafts" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Documentation for Drafts 5" />
 <meta property="og:description" content="Documentation for Drafts 5" />
@@ -17,7 +17,7 @@
 <meta name="twitter:site" content="@draftsapp" />
 <meta property="article:publisher" content="https://www.facebook.com/draftsapp" />
 <script type="application/ld+json">
-{"name":null,"description":"Documentation for Drafts 5","author":null,"@type":"WebPage","url":"/watch/","publisher":null,"image":null,"headline":"Apple Watch","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+{"name":null,"description":"Documentation for Drafts 5","author":null,"@type":"WebPage","url":"/editor/navigation.html","publisher":null,"image":null,"headline":"Navigating Longer Drafts","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <meta property="og:image" content="http://getdrafts.com/images/drafts-ogimage.png" />
@@ -93,50 +93,33 @@
 
     <div id="main">
         <div class="header">
-            <h1>Apple Watch</h1>
+            <h1>Navigating Longer Drafts</h1>
         </div>
 
         <div class="content">
-          <p>Drafts watch app allows for quick capture on the go, as well as the ability to browse and manage inbox drafts.</p>
-
-<div class="doc-image">
-<img src="/images/docs/watch/overview.png" alt="" />
+          <div class="navigation">
+  <a href="/editor">&lt; Editor</a>
 </div>
 
-<p>If you have an Apple Watch paired with your iPhone, the Drafts watch app can be <a href="https://support.apple.com/en-us/HT204784">installed in the Watch app on iPhone</a>.  While in the Watch app on your iPhone, there are two settings available you may with to configure:</p>
+<p>If you write longer drafts in a structured format like Markdown, Drafts can help navigate to key locations with the navigate view accessed via the down arrow icon near the top right of the screen.</p>
+
+<div class="doc-image">
+<img src="/images/docs/editor/navigate.png" alt="" />
+</div>
+
+<p>To access the navigator, tap the down arrow icon in the top right - or <code class="highlighter-rouge">⌘-\</code> on an external keyboard. If any navigation marks are found in your draft, a list will appear with those items. Top an item and the editor will place the cursor in the draft at that position and scroll it into view.</p>
+
+<p>What marks are found depend on the syntax select for the current draft.  The initial implementation finds the following markers:</p>
 
 <ul>
-  <li><strong>Auto-capture from complication</strong>: If enabled, when the Drafts app is launched by tapping on the watch face complication, the app will immediately enter dictation mode to capture a new draft.  This is a time saver if you use the app often to quickly capture an idea.</li>
-  <li><strong>Tag for new drafts</strong>: Optional, but you can enter a tag name here and new drafts created on the Watch will automatically be assigned this tag.</li>
+  <li><strong>Markdown</strong>: And Markdown headers using the “#” header syntax. Header levels are identified and indented.</li>
+  <li><strong>Taskpaper</strong>: And Taskpaper projects, using the “Project Name:” syntax.</li>
+  <li><strong>Javascript</strong>: Traditional function declarations in the format “function name() {}”, and region mark comments in the format “// #region RegionName”.</li>
 </ul>
 
-<p>Once installed, you can launch Drafts from the app launch on the Watch. Drafts from your inbox on iPhone will be synchronized to the Watch and the following features can be used from the main screen:</p>
+<h3 id="quick-links">Quick links</h3>
 
-<ul>
-  <li><strong>Capture</strong> (microphone button): Capture a new draft with dictation.</li>
-  <li><strong>Advanced Capture</strong>: (pen icon): Capture with options, which includes access to the Watch <a href="https://support.apple.com/en-us/HT206907">scribble handwriting interface</a>.</li>
-  <li><strong>Inbox</strong>: Displays count on inbox drafts, and tapping it opens the inbox draft list.</li>
-</ul>
-
-<p>The inbox screen provides a quick list of drafts in your inbox. Tap on a draft to view its detail view.  On the detail, the following commands are available:</p>
-
-<ul>
-  <li><strong>Flag</strong>: Toggle the flagged status of the draft.</li>
-  <li><strong>Add/Remove Tag</strong>: Tags can be added using dictation, scribble, or by selecting from recently used tags - or tags already assigned can be removed from the draft.</li>
-  <li><strong>Append/Prepend</strong>: Use to add text to the beginning or end of a draft, either by dictation - or by scribble using the pen icons.</li>
-  <li><strong>Archive</strong>: Move the draft to the archive.</li>
-  <li><strong>Trash</strong>: Move draft to the trash.</li>
-</ul>
-
-<h3 id="siri">Siri</h3>
-
-<p>The Drafts Apple Watch app also support direct integration with Siri, using the phrase “Create a note using Drafts”.</p>
-
-<h3 id="interaction-with-the-phone-and-disconnected-use">Interaction with the Phone and Disconnected Use</h3>
-
-<p>When your watch is paired and has an active connection with your iPhone, changes made on the Watch are pushed back to the phone more or less in real time.</p>
-
-<p>The watch app can be used while disconnected from iPhone, with some limitations depending on the model and connectivity of your Watch. Dictation requires a connected phone or network to work. Other changes, will be stored on the watch and replayed to the phone when the devices are connected again.</p>
+<p>At the bottom of the navigate view, there are also quick links to move to the top or bottom of the text - or to select all text in the editor.</p>
 
         </div>
 

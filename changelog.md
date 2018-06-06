@@ -4,7 +4,46 @@ title: Changelog
 
 **Also visit the [News & Updates Topic](https://forums.getdrafts.com/c/news) on the Community for for update notes.**
 
-#### 5.1.0
+## 5.2.0
+
+#### New in 5.2
+
+- **Actions now have an "Assign tags" after success setting.** In addition to moving a draft to the archive or trash, after success can now also assign tags - great for marking or filing away drafts automatically when processing them. For example, set the Tweet action to automatically assign the "tweet" tag when run on a draft and you can later easily filter for tweets. [Details](http://getdrafts.com/actions/advancedsettings)
+- **In-draft navigation to jump between key marks in longer drafts**. Accessed via the navigate button (down arrow icon) in the upper right (or ⌘-\ shortcut). Currently navigation supports jumping to headers in a Markdown draft, projects in a Taskpaper draft, and functions and "// #region Name" region comments in Javascript drafts. [Details](http://getdrafts.com/editor/navigation)
+- **Scripting additions to support switching workspaces and action groups**:
+  - Allows for action setup to load a workspace, and simultaneously switch selected action list and keyboard row.
+  - Inquiry about and toggle visibility of drafts and action lists:
+      - `app.isDraftListVisible`, `app.showDraftList()`, `app.hideDraftList()`
+      - `app.isActionListVisible`, `app.showActionList()`, `app.hideActionList()`
+  - Load action groups and apply workspaces in script:
+      - `app.loadActionGroup(group)`, `app.loadKeyboardActionGroup(group)`
+      - `app.applyWorkspace(workspace)`
+  - Also Workspace and ActionGroup objects to allow lookup of groups and workspaces.
+  - More details on [scripting reference site](http://reference.getdrafts.com)
+- **Additional URL Actions**
+  - `/loadActionGroup?name=GROUP-NAME` - loads action group in action list
+  - `/loadKeyboardActionGroup?name=GROUP-NAME` - loads action group in extended keyboard.
+  - Details in [URL scheme documentation](http://getdrafts.com/urls)
+- **"List in Reminders" action step now has a template**. Useful to create one for sending only [[selection]] or passing in values from script or prompt. [Details](http://getdrafts.com/actions/steps/listinreminders)
+
+#### Other Fixes and Changes in 5.2
+
+- **Fix (Watch):** Improvements to communication between Watch and Phone to address some issues with stuck transfers.
+- **Fix (Watch):** Watch app auto-capture from complication did not work if app was already running and open to a view other than the main capture view.
+- **Fix:** Some tweaks to Taskpaper syntax.
+- **Change:** Do not dismiss any presented views when the new draft creation timeout is fired to avoid loosing unsaved work in actions, etc.
+- **Fix:** Moving through action list with up-down arrow keys should scroll items into view when necessary.
+- **Fix:** URL action step should ignore "Open in Drafts" option if the URL generated is a non-http(s) URL.
+- **Fix:** Opening current list options without making changes could result it "current list options" erroneously displayed in list filter.
+- **Fix:** "Insert text" action step now plays nicer with other subsequent action steps.
+- **Fix:** Address a case where sync could get stalled in odd timing situations where sync was requested more than once quickly.
+- **Fix:** [[draft_open_url]] tag was not working.
+- **Change:** Work on some general improvements to syntax highlighting to avoid a few glitches in rendering.
+- **Change:** Several improvements to Markdown syntax, including highlighting of horizontal rules and indented code blocks.
+- **New:** Add keyboard shortcut preview when managing action groups actions.
+- **Change:** Some under-the-hood improvements to Action Directory sharing to support additional features on the web site.
+
+## 5.1.0
 
 - **New action steps**
   - `Event` action step returns for creating calendar events with default system card. [Docs and sample action](http://getdrafts.com/actions/steps/event).
@@ -38,14 +77,14 @@ title: Changelog
   - **Fix:** Workaround dark theme tinting of the system file import view.
   - **Fix:** Do not allow external keyboard shortcuts to interfere with arrow keys while editing search fields.
 
-#### 5.0.5
+## 5.0.5
 
 - **New:** Full access to Twitter API via Twitter object `request` method. Drafts will handle the OAuth, and you can make any valid calls against the Twitter API. [Details on methods in scripting documentation](http://reference.getdrafts.com/objects/Twitter.html). Same actions, like a Tweet Storm example, in the [Twitter integration guide](https://forums.getdrafts.com/t/using-twitter-with-drafts/109).
 - **Fix:** Refactor animation to avoid oddball case where the side panels could get stuck when the cursor was in certain positions with certain content in a draft.
 - **Fix:** Threading issue scripting twitter updateStatus calls.
 - **New:** Inbox/Flagged/Archive/Trash tabs now support drag and drop. Draft drafts from list onto them to move them (or assign flags).
 
-### 5.0.4
+## 5.0.4
 
 - **New:** iMessages app is back and better than ever. With tag filtering, it makes it really easy to use Drafts as a snippet library to insert text into Messages. [More information](/messages)
 - **New:** Inbox/Flagged/Archive/Trash tabs in draft list now support drag and drop. Drag drafts from list onto them to move them (or assign flags).
@@ -70,7 +109,7 @@ title: Changelog
 - **Fix:** Do not allow edit of name in current list options workspace.
 - **Fix:** VoiceOver issues with tag selection and editing.
 
-### 5.0.3
+## 5.0.3
 
 - **New:** Better drag and drop in action list. Actions can now be dragged between groups by switching group tabs, and also dropped on a different group in the group list to move them.
 - **Fix:** Automatic theme change would loose cursor position and not update keyboard appearance.
@@ -88,6 +127,6 @@ title: Changelog
 - **Fix:** Add "after success" label in group editing.
 - **Fix:** Scripting theme change should require Pro subscription.
 
-### 5.0.2
+## 5.0.2
 
 - Initial public release.

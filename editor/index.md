@@ -11,6 +11,7 @@ The editor is the center of the Drafts world.  It is where you create and edit t
 #### Related Topics
 
 - [Flags and Tagging]({{ site.baseurl }}/drafts/tagging)
+- [Navigating Longer Drafts]({{ site.baseurl }}/editor/navigation)
 
 ### Bottom Toolbar
 

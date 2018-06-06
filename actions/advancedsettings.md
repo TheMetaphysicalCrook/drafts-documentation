@@ -14,7 +14,7 @@ While Drafts is geared around making it quick and frictionless to act on drafts,
 
 If "Confirm before running" is enabled, whenever the action is run, a prompt will open to confirm you wish to run the action, with the option to cancel.
 
-### After success
+### After Success - Filing
 
 After the successful completion of an action, drafts can be filed away automatically using the "After success" setting.
 
@@ -26,6 +26,10 @@ After Success can be set on individual actions in their action edit view, or use
 - **Trash**: After success, move the draft to the trash can.
 
 If the after success is set to archive or trash the draft, and that draft is currently loaded in the editor, Drafts will also end editing of that draft.  If [focus mode]({{ site.baseurl }}/editor/focusmode) is current enabled, the next draft in the draft list will be loaded.  If focus mode is off, you will be returned to a new draft, ready to edit.
+
+### After Success - Tagging
+
+The after success settings on an action can also assign one or more tags to the draft. Place a comma-separated list of tags in the "Assign tags" field, and those tags will be assigned to the draft when the action completes successfully. This is a great way to file drafts - for example assigning a "tweet" tag to any drafts that were posted to Twitter with an action.
 
 ### Notification
 
