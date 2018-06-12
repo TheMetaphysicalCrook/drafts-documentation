@@ -14,6 +14,10 @@ Drafts is organized around three basic areas:
 
 {% include doc-image.html src="/gettingstarted/main.png" %}
 
+<div class="callout">
+  <h4>Like to learn with video examples? Try our <a href="/screencasts">Screencasts</a>!</h4>
+</div>
+
 Drafts is very customizable. Most options are accessible via the appearance (Aa) and general settings (gear) buttons at the bottom right. Details:
 
 - [Appearance Settings]({{ site.baseurl }}/editor/appearance)
