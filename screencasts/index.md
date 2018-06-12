@@ -7,7 +7,7 @@ title: Screencasts
 This page has some highlights, but if you want to keep up with the latest Drafts tutorial and tip screencasts, you can also subscribe to us on Vimeo or YouTube.
 
   - [Drafts on Vimeo](https://vimeo.com/channels/1365328)
-  - [Drafts on YouTube](https://www.youtube.com/playlist?list=PLJ_odbyIW_Rc-hvHnyvFg6k2Jy-6qW_iB)
+  - [Drafts on YouTube](https://www.youtube.com/c/AgileTortoiseSupport)
 
 ## The Basics
 
