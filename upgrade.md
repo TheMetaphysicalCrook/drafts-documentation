@@ -39,7 +39,7 @@ title: Upgrading to Drafts 5
   <div class='pure-u-1-1 pure-u-md-1-2' style='text-align:center;'>
     <div class="callout" style="margin: 1em;">
       <h2><a href="https://itunes.apple.com/app/id1236254471?ls=1&mt=8&at=11l4Cf&ct=site">Try it free today!</a></h2>
-      <p>Free download and trial of Pro features available.</p>
+      <p>Free download and trial of <a href="/draftspro">Pro features</a> available.</p>
     </div>
   </div>
 </div>
