@@ -4,6 +4,21 @@ title: Changelog
 
 **Also visit the [News & Updates Topic](https://forums.getdrafts.com/c/news) on the Community for for update notes.**
 
+## 5.2.1
+
+- **New:** [Navigate window](http://getdrafts.com/editor/navigation) (access via down arrow at top right) now also offers navigation to recent drafts. Defaults to displaying recent drafts if current draft does not have any identifiable navigation markers.
+- **New:** Sprinkle in more user activity registrations.
+- **Fix:** Clean up a couple of crashers with unexpected arguments in scripting methods.
+- **Fix:** Avoid deadlock running OneDrive append action with a subfolder path configured.
+- **Fix:** If the URL provided to Drafts in an x-success parameter did not already have any parameters, return parameters might not get appended correctly.
+- **Fix:** Matching projects in Taskpaper syntax should be less greedy matching : in tasks.
+- **Fix:** Resuming dictation after editing while paused could lose edits.
+- **Fix:** Spotlight in-app search continuation was not configured properly.
+- **Fix:** Better handling of more than one watch connected to an iPhone.
+- **Fix:** Request refresh of calendar store data before script methods that read from calendars.
+- **Fix:** Crash deleting multiple action log entries.
+- **Fix:** Crash requesting product information from App Store in poor network conditions.
+
 ## 5.2.0
 
 #### New in 5.2
