@@ -32,6 +32,16 @@ This page has some highlights, but if you want to keep up with the latest Drafts
     Want to know what's new in Drafts 5? Start here.
     </div>
   </div>
+  <div class='pure-u-1-1 pure-u-md-1-2' style='text-align:center;'>
+    <div style='border:1px solid #ddd;background:#eee;margin:.5em;'>
+      <div class='embed-container'>
+        <iframe src='https://player.vimeo.com/video/276095230' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+      </div>
+    </div>
+    <div class='caption'>
+    Get started with actions with this walkthough of action setup.
+    </div>
+  </div>
 </div>
 
 ## Dive Deeper
@@ -50,14 +60,11 @@ This page has some highlights, but if you want to keep up with the latest Drafts
   <div class='pure-u-1-1 pure-u-md-1-2' style='text-align:center;'>
     <div style='border:1px solid #ddd;background:#eee;margin:.5em;'>
       <div class='embed-container'>
-        <div style="padding: 3em;">
-          <strong>COMING SOON</strong><br><br>
-          <em>Tags and Workspaces</em>
-        </div>
+        <iframe src='https://player.vimeo.com/video/276105416' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
       </div>
     </div>
     <div class='caption'>
-    More great screencasts are on the way!
+      Learn how to use tags and workspaces to keep up with drafts.
     </div>
   </div>
 </div>

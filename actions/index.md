@@ -14,6 +14,19 @@ Each action consists settings which control the display and behavior of the acti
 
 ### Action Basics
 
+<div class='pure-g'>
+  <div class='pure-u-1-1 pure-u-md-1-2' style='text-align:center;'>
+    <div style='border:1px solid #ddd;background:#eee;margin:.5em;'>
+      <div class='embed-container'>
+        <iframe src='https://player.vimeo.com/video/276095230' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+      </div>
+    </div>
+    <div class='caption'>
+    Get started with actions with this walkthough of action setup.
+    </div>
+  </div>
+</div>
+
 - [Action Groups](/actions/actiongroups)
 - [Configuring Actions]({{ site.baseurl }}/actions/actions)
 - [Action List Options](/actions/action-list-options)

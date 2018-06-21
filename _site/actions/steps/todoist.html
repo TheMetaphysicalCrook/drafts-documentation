@@ -7,19 +7,19 @@
     <meta name="apple-itunes-app" content="app-id=1236254471, affiliate-data=at=11l4Cf&amp;ct=web_banner">
     <link rel="icon" href="/images/favicon.png?v=2">
 <!-- Begin Jekyll SEO tag v2.3.0 -->
-<title>Action Step – Clipboard | Drafts</title>
-<meta property="og:title" content="Action Step – Clipboard" />
+<title>Action Step – Todoist | Drafts</title>
+<meta property="og:title" content="Action Step – Todoist" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Documentation for Drafts 5" />
 <meta property="og:description" content="Documentation for Drafts 5" />
-<link rel="canonical" href="http://localhost:4000/actions/steps/clipboard.html" />
-<meta property="og:url" content="http://localhost:4000/actions/steps/clipboard.html" />
+<link rel="canonical" href="http://localhost:4000/actions/steps/todoist.html" />
+<meta property="og:url" content="http://localhost:4000/actions/steps/todoist.html" />
 <meta property="og:site_name" content="Drafts" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@draftsapp" />
 <meta property="article:publisher" content="https://www.facebook.com/draftsapp" />
 <script type="application/ld+json">
-{"name":null,"description":"Documentation for Drafts 5","author":null,"@type":"WebPage","url":"http://localhost:4000/actions/steps/clipboard.html","publisher":null,"image":null,"headline":"Action Step – Clipboard","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+{"name":null,"description":"Documentation for Drafts 5","author":null,"@type":"WebPage","url":"http://localhost:4000/actions/steps/todoist.html","publisher":null,"image":null,"headline":"Action Step – Todoist","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <meta property="og:image" content="http://getdrafts.com/images/drafts-ogimage.png" />
@@ -96,7 +96,7 @@
 
     <div id="main">
         <div class="header">
-            <h1>Action Step – Clipboard</h1>
+            <h1>Action Step – Todoist</h1>
         </div>
 
         <div class="content">
@@ -104,31 +104,21 @@
   <a href="/actions/steps">&lt; Action Steps</a>
 </div>
 
-<p>Clipboard steps can replace, append or prepend to the system clipboard.</p>
+<p>Add a task to your inbox on the <a href="http://todoist.com">Todoist</a> task management service. More advanced integration with Todoist is also available via the Todoist script object.</p>
 
 <h4 id="examples">Examples</h4>
 
-<p><em>(Open links on device with Drafts to install)</em></p>
-
 <ul>
-  <li><a href="http://actions.getdrafts.com/a/1Ax">Copy</a></li>
-  <li><a href="http://actions.getdrafts.com/a/1ES">Append to Clipboard</a></li>
-  <li><a href="http://actions.getdrafts.com/a/1ET">Prepend to Clipboard</a></li>
+  <li><a href="https://actions.getdrafts.com/g/1L3">Examples-Todoist</a></li>
 </ul>
 
 <h4 id="options">Options</h4>
 
-<p>The following options can be configured on this step:</p>
-
 <ul>
-  <li><strong>Template</strong>: Template for content.</li>
-  <li><strong>Write Type</strong>
-    <ul>
-      <li><em>replace</em>: Replaces the current content of the clipboard.</li>
-      <li><em>prepend</em>: Prepends content to the beginning of the system clipboard.</li>
-      <li><em>append</em>: Append content to the end of the system clipboard.</li>
-    </ul>
-  </li>
+  <li><strong>Template</strong>: Template for the content of the new task.</li>
+  <li><strong>Due String</strong>: Optional human-readable date specifier in a format Todoist understands, like “next Wednesday” or “Tomorrow”. If blank, no due date will be assigned to the task.</li>
+  <li><strong>Comment</strong>: Also optional, but if this template generates text, it will be added to the new task as a comment.</li>
+  <li><strong>Identifier</strong>: Arbitrary string identifier for the Todoist credentials to use. This value is only needed if you wish to use more than one account with Drafts. If used, all actions with the same identifier will use the same alternate login for Todoist.</li>
 </ul>
 
         </div>

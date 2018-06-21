@@ -4,6 +4,19 @@ title: Flags and Tagging
 
 {% include back.html title="Managing Drafts" path="/drafts" %}
 
+<div class='pure-g'>
+  <div class='pure-u-1-1 pure-u-md-1-2' style='text-align:center;'>
+    <div style='border:1px solid #ddd;background:#eee;margin:.5em;'>
+      <div class='embed-container'>
+        <iframe src='https://player.vimeo.com/video/276105416' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+      </div>
+    </div>
+    <div class='caption'>
+      Learn how to use tags and workspaces to keep up with drafts.
+    </div>
+  </div>
+</div>
+
 Drafts can be flagged, similar to flagging email messages, to quickly mark them for special handling. Flagged messages appear in a special "Flagged" tab in the draft list.
 
 Drafts also allows one or more tags to be assigned to any draft to help organize and segment your draft library. Tags themselves are short strings. Tags may contain spaces and punctuation, but will be normalized to lower case for consistency.

@@ -49,6 +49,9 @@ Set up a text editing experience that’s perfect for you, with tons of interfac
       </div>
     </div>
   </div>
+  <div class='pure-u-1-1'>
+    <h2 style='text-align:center;color:maroon;margin-bottom:1.5em;'><a href="/screencasts">More Screencasts</a></h2>
+  </div>
 </div>
 
 ## WHY YOU’LL LOVE DRAFTS
